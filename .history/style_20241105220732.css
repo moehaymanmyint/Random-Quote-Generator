@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.quote-box{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 50%;
+}

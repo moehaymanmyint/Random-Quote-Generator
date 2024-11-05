@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.quote-box{
+    background-color: antiquewhite;
+    display: flex;
+    margin: 20px 150px;
+    padding: 15px;
+}

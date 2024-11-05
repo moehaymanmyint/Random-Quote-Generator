@@ -1,0 +1,17 @@
+body{
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box{
+    background-color: antiquewhite;
+    text-align: center;
+}
