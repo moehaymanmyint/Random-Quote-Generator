@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
-body{
-    background: linear-gradient(to bottom right, #2a3d66, #3e5c82, #5a7f9d);
-    color: white;
-    height: 100vh;
-}
 .container{
     font-family: "Playwrite GB S", cursive;
     display: flex;
@@ -22,43 +17,35 @@ body{
 }
 .container .quote{
     text-align: center;
-    font-size: 40px;
 }
 
 .container .author{
     font-size: 30px;
-    color: rgb(197, 217, 245);
+    color: brown;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .quote-box{
-    background: linear-gradient(to top right, #2a3d66, #3e5c82, #5a7f9d);
-    opacity: 0.8;
+    background-color: antiquewhite;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    width: 60%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 50%;
 }
 
 .copy-btn{
     padding: 10px 15px;
     border: none;
     border-radius: 40px;
-    background-color: #1d2c4b;
-    color: white;
+    background-color: brown;
+    color: antiquewhite;
     margin: 10px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Playwrite GB S", cursive;
-    transition: 0.5s;
-}
-
-.copy-btn:hover{
-    background-color: #27395c;
 }
 
 i{
@@ -66,19 +53,12 @@ i{
 }
 
 input{
-    background-color: #1d2c4b;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
-    color: white;
+    background-color: azure;
     border: none;
     border-radius: 10px;
     padding: 2px 8px;
     font-size: 22px;
-    margin: 5px;
+    margin: 2px;
     cursor: pointer;
     font-family: "Playwrite GB S", cursive;
-    transition: 0.5s;
-}
-
-input:hover{
-    opacity: 0.8;
 }

@@ -53,7 +53,6 @@ let quotes = {
 let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
 let category = document.querySelectorAll(".category input");
-let copyBtn = document.querySelector(".copy-btn");
 
 category.forEach(input => {
     input.addEventListener("click", () => {
@@ -62,25 +61,9 @@ category.forEach(input => {
         let randomQuote = quoteArr[Math.floor(Math.random() * quoteArr.length)];
         console.log(randomQuote);
         
-        quote.innerHTML = "'" + randomQuote.quote + "'";
-        author.innerHTML = "~" + randomQuote.author + "~";
+        quote.innerText = randomQuote.quote;
+        author.innerText = randomQuote.author;
     }) 
-});
-
-function copyClipboard() {
-    let quoteText = quote.innerHTML;
-    navigator.clipboard.writeText(quoteText)
-        .then(() => {
-            alert("Quote copied to clipboard!");
-        })
-        .catch(err => {
-            console.error("Failed to copy: ", err);
-        });
-}
-
-copyBtn.addEventListener("click", copyClipboard);
-
-
-
+})
 
 

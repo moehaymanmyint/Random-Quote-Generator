@@ -62,13 +62,14 @@ category.forEach(input => {
         let randomQuote = quoteArr[Math.floor(Math.random() * quoteArr.length)];
         console.log(randomQuote);
         
-        quote.innerHTML = "'" + randomQuote.quote + "'";
+        quote.innerHTML = randomQuote.quote;
         author.innerHTML = "~" + randomQuote.author + "~";
     }) 
 });
 
 function copyClipboard() {
     let quoteText = quote.innerHTML;
+
     navigator.clipboard.writeText(quoteText)
         .then(() => {
             alert("Quote copied to clipboard!");
@@ -76,7 +77,7 @@ function copyClipboard() {
         .catch(err => {
             console.error("Failed to copy: ", err);
         });
-}
+});
 
 copyBtn.addEventListener("click", copyClipboard);
 

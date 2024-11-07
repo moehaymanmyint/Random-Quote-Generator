@@ -62,7 +62,7 @@ category.forEach(input => {
         let randomQuote = quoteArr[Math.floor(Math.random() * quoteArr.length)];
         console.log(randomQuote);
         
-        quote.innerHTML = "'" + randomQuote.quote + "'";
+        quote.innerHTML = randomQuote.quote;
         author.innerHTML = "~" + randomQuote.author + "~";
     }) 
 });

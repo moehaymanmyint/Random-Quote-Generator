@@ -27,13 +27,13 @@ body{
 
 .container .author{
     font-size: 30px;
-    color: rgb(197, 217, 245);
+    color: white;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .quote-box{
-    background: linear-gradient(to top right, #2a3d66, #3e5c82, #5a7f9d);
+    background: linear-gradient(to top left, #2a3d66, #3e5c82, #5a7f9d);
     opacity: 0.8;
     padding: 30px;
     display: flex;
