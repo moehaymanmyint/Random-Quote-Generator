@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
 body{
-    background: linear-gradient(to bottom right, #2a3d66, #3e5c82, #5a7f9d);
-    color: white;
+    color: black;
     height: 100vh;
 }
 .container{

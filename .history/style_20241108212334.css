@@ -33,7 +33,7 @@ body{
 }
 
 .quote-box{
-    background: linear-gradient(to top right, #4967a8, #5c81b1, #86abc8);
+    background: linear-gradient(to top left, #4967a8, #5c81b1, #86abc8);
     opacity: 0.8;
     padding: 30px;
     display: flex;
